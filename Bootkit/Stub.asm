@@ -9,8 +9,7 @@ GenTbl:
 public GetRip
 
 GetRip proc
-	pop	rax
-	sub	rax, 5
+	mov rax, [rsp]
 	ret
 GetRip endp
 
